@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Yo <code>src/App.js</code> and save to 
+          Yo Dayton <code>src/App.js</code> and save to 
         </p>
       </header>
     </div>
