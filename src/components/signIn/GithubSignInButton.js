@@ -3,7 +3,7 @@ import React from 'react'
 
 
  const GithubSignInButton = () =>{
-    return <a href="https://github.com/login/oauth/authorize?client_id=b9305af8a8b0ff6e76e9">Login with github</a>
+    return <a href="https://github.com/login/oauth/authorize?client_id=f248d7c7a624257a6899">Login with github</a>
 }
 
 export default GithubSignInButton
