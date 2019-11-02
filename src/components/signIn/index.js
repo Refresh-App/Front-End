@@ -10,7 +10,7 @@ const SignInCanvas = () =>{
             <GithubSignInButton/>
             <GoogleSignInButton/>
         </div>
-    )
+    );
 }
 
 export default SignInCanvas;
