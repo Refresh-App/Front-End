@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 import { signup } from '../../actions';
 
 
-import  SignUpForm  from './SignUpForm';
-// import  UserType  from './UserType';
-// import  HealthStats  from './HealthStats';
+import  FormStart  from './FormStart';
+import  UserType  from './UserType';
+import  HealthStats  from './HealthStats';
 
 class SignUp extends Component{
 state = {
@@ -16,27 +16,26 @@ state = {
 
 onSubmit = form =>{
   
-        // this.props.signup(this.state.form)
-        // .then(()=>this.props.history.push('/login'))
-    // this.setState({
-    //    form:[ 
-    //     ...this.state.form, 
-    //     form
-    //    ],
-    //    currentStep: this.state.currentStep +1,
-    // })
-    // console.log(this.state.form)
-    this.props.signup(form)
+    if(this.state.currentStep>2){
+        this.props.signup(this.state.form).then(()=>this.props.history.push('/login'))
+    }
+    this.setState({
+       form:[ 
+        ...this.state.form, 
+        form
+       ],
+       currentStep: this.state.currentStep +1,
+    })
 }
 
 
 render(){
     return(
         <>
-         {this.state.currentStep === 0 && <SignUpForm onSubmit={this.onSubmit} />}
-         {/* {this.state.currentStep === 1 && <UserType onSubmit={this.onSubmit}  />}  */}
-         {/* {this.state.currentStep === 2 && <HealthStats onSubmit={this.onSubmit} />} */}
-         {<button onClick={this.onSubmit}>Finish Signing Up</button>}
+         {this.state.currentStep === 0 && <FormStart onSubmit={this.onSubmit} />}
+         {this.state.currentStep === 1 && <UserType onSubmit={this.onSubmit}  />} 
+         {this.state.currentStep === 2 && <HealthStats onSubmit={this.onSubmit} />}
+         {this.state.currentStep >2  && <button onClick={this.onSubmit}>Finish Signing Up</button>}
          </>
     )
 }
