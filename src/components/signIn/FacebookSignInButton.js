@@ -2,11 +2,11 @@
 import React from "react";
 
 
-const GithubSignInButton = () => {
+const FacebookSignInButton = () => {
   
-  //Auth and Auth Success can be thought of like Fire and Air
+  //You will notice the functions auth and authSuccess in each SignInButton, Maybe abstract out. 
   const auth = () =>{
-    window.open("https://apidevnow.com/gitAuth", "Sign In With Github ;)", "width=400,height=500")
+    window.open("https://apidevnow.com/facebookAuth", "Sign In With Facebook ;)", "width=400,height=500")
     window.addEventListener('message', response =>{
       authSuccess(response.data); // e.data hold the message
     } , false);
@@ -19,10 +19,10 @@ const GithubSignInButton = () => {
   return (
     <>
       <button onClick={auth}>
-        Login with github
+        Login with Facebook
       </button>
     </>
   );
 };
 
-export default GithubSignInButton;
+export default FacebookSignInButton;
