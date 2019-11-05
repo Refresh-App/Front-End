@@ -1,18 +1,31 @@
 //Sign in Canvas
 import React from "react";
-import axios from 'axios'
+
 
 const GithubSignInButton = () => {
-    axios.get('https://apidevnow.com/gitAuth')
-    .then(res =>console.log(res))
-    .catch(res =>console.log(res))
+  
+  //Auth and Auth Success can be thought of like Fire and Air
+  const auth = () =>{
+    window.open("https://apidevnow.com/gitAuth", "Sign In With Github ;)", "width=400,height=500")
+    window.addEventListener('message', response =>{
+      authSuccess(response.data); // e.data hold the message
+    } , false);
+  }
+
+  const authSuccess = userObject => {
+    //Maybe Consider loading a profile page at this point
+    // userObject = JSON.parse(userObject)
+    console.log(JSON.parse(userObject))
+  }
+
   return (
     <>
-      <a href="https://github.com/login/oauth/authorize?client_id=f248d7c7a624257a6899">
+      <button onClick={auth}>
         Login with github
-      </a>
+      </button>
     </>
   );
 };
 
 export default GithubSignInButton;
+//href="https://github.com/login/oauth/authorize?client_id=f248d7c7a624257a6899"
