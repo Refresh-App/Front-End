@@ -13,7 +13,7 @@ const GithubSignInButton = () => {
   }
 
   const authSuccess = userObject => {
-    console.log(JSON.parse(userObject))
+    console.log(userObject)
   }
 
   return (
