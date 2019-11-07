@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from 'axios'
 const LocalSignUpForm = ()=> {
     const [user, setUser] = useState ({
-        username: "",
+        email: "",
         password: ""
     });
 
@@ -16,9 +16,10 @@ const LocalSignUpForm = ()=> {
 
     const handleSubmit = e => {
         e.preventDefault();
+        console.log(user)
         axios.post('https://apidevnow.com/register',user)
         .then(res => console.log(res))
-        .catch(err => console.log(err))
+        // .catch(err => console.log(err))
     };
 
     return(
