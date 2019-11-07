@@ -6,7 +6,6 @@ function App() {
   return (
     <>
     <Link to="/signup">Sign Up Here</Link>
-      <Route exact path="/signup" component={SignUp} />
       <SignInCanvas />
       <p>mike</p>
     </>
