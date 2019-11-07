@@ -1,9 +1,6 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import SignInCanvas from './components/signIn/';
-import SignUp from './components/SignUp/SignUp';
-
-
 
 function App() {
   return (
