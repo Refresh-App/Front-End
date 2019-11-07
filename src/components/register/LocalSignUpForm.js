@@ -19,7 +19,7 @@ const LocalSignUpForm = ()=> {
         console.log(user)
         axios.post('https://apidevnow.com/register',user)
         .then(res => console.log(res))
-        // .catch(err => console.log(err))
+        .catch(err => console.log(err))
     };
 
     return(
