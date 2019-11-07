@@ -3,7 +3,7 @@ import React from "react";
 
 
 const FacebookSignInButton = () => {
-  
+  console.log('called')
   //You will notice the functions auth and authSuccess in each SignInButton, Maybe abstract out. 
   const auth = () =>{
     window.open("https://refresh-yo.herokuapp.com/facebookAuth", "Sign In With Facebook ;)", "width=400,height=500")

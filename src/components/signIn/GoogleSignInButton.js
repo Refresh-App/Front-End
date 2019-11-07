@@ -2,6 +2,7 @@
 import React from "react";
 
 const GoogleSignInButton = () => {
+  console.log('googleCalled')
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () => {
     window.open(

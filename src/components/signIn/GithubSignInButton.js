@@ -3,7 +3,6 @@ import React from "react";
 
 
 const GithubSignInButton = () => {
-  
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () =>{
     window.open("https://refresh-yo.herokuapp.com/gitAuth", "Sign In With Github ;)", "width=400,height=500")
@@ -13,10 +12,11 @@ const GithubSignInButton = () => {
   }
 
   const authSuccess = userObject => {
-    console.log(JSON.parse(userObject))
+    console.log(JSON.parse('authSuccess',userObject))
   }
 
   return (
+    
     <>
       <button onClick={auth}>
         Login with github
