@@ -22,7 +22,7 @@ const GoogleSignInButton = () => {
     console.log(JSON.parse(userObject));
   };
 
-  return <button>GOOGLE</button>;
+  return <button onClick={auth}>GOOGLE</button>;
 };
 
 export default GoogleSignInButton;
