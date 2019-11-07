@@ -20,7 +20,7 @@ const GoogleSignInButton = () => {
   }
 
   const authSuccess = userObject => {
-    console.log("here",JSON.parse(userObject));
+    console.log(JSON.parse(userObject));
   };
 
   return <button onClick={auth}>GOOGLE</button>;
