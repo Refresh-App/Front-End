@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SignUpForm = (props) => {
+const LocalSignUpForm = (props) => {
     const [user, setUser] = useState ({
         username: "",
         password: ""
@@ -40,4 +40,4 @@ const SignUpForm = (props) => {
     );
 };
 
-export default SignUpForm;
+export default LocalSignUpForm;
