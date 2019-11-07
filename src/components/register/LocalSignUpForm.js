@@ -26,8 +26,8 @@ const LocalSignUpForm = ()=> {
             <form onSubmit ={handleSubmit}>
                 <input 
                 type="text"
-                name="username"
-                placeholder="Enter Your User Name Here"
+                name="email"
+                placeholder="Enter Your Email Address Here"
                 onChange={handleChanges}
                 />
                 <input 
