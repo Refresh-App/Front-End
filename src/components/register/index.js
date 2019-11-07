@@ -12,8 +12,6 @@ const SignInCanvas = () =>{
             <GoogleSignInButton/><br />
             <FacebookSignInButton/><br />
             <LocalSignUpForm />
-
-
         </div>
     );
 }
