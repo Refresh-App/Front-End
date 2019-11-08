@@ -22,7 +22,7 @@ const LocalSignUpForm = ()=> {
 
     return(
         <div>
-            <p>Local Form post to /register</p>
+            <p>Local Form <pre>POST</pre> to /register</p>
             <form onSubmit ={handleSubmit}>
                 <input 
                 type="text"
