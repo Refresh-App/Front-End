@@ -4,7 +4,7 @@ import GithubSignInButton from './GithubSignInButton'
 import GoogleSignInButton from './GoogleSignInButton'
 import FacebookSignInButton from './FacebookSignInButton'
 import LocalSignUpForm from './LocalSignUpForm'
-import AddQuestion from '../questions/index'
+
 const SignInCanvas = () =>{
     console.log('herehere')
     return(
