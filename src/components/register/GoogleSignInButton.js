@@ -29,6 +29,10 @@ const GoogleSignInButton = () => {
       <div style={{ ...routeStyle }}>
         <pre>GET /googleAuth</pre>
         <button onClick={auth}>GOOGLE</button>
+        <p>Returns</p>
+        <pre>
+          
+        </pre>
       </div>
     </>
   );
