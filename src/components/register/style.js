@@ -1,5 +1,5 @@
 export const routeStyle = {
   border: "1px solid #ddd",
-  margin:"10px",
+  margin:"5px",
   padding:'10px'
 };
