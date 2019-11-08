@@ -16,9 +16,8 @@ const LocalSignUpForm = ()=> {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log(user)
         axios.post('https://apidevnow.com/register',user)
-        .then(res => console.log("datafddfg",res.data))
+        .then(res => console.log(res.data))
     };
 
     return(
