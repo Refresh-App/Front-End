@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {routeStyle} from './style'
 import axios from 'axios'
 const LocalSignUpForm = ()=> {
     const [user, setUser] = useState ({
@@ -21,7 +22,7 @@ const LocalSignUpForm = ()=> {
     };
 
     return(
-        <div>
+        <div style={{ ...routeStyle }}>
             <p>Local Form </p>
             <pre>POST /register</pre>
             <form onSubmit ={handleSubmit}>
