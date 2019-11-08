@@ -1,15 +1,10 @@
 import React from 'react'
-
+import NewQuestionForm from './NewQuestionForm'
 const addQuestionsCanvas = () => {
     return(
     <>
-    <form>
-        <input type="text"/>
-        <input type="text"/>
-
-        <button>Submit</button>
-
-    </form>
+    <h1>Questions</h1>
+    <NewQuestionForm />
     </>
     )}
 

@@ -1,6 +1,6 @@
 //Sign in Canvas
 import React from "react";
-import { routeStyle } from "./style";
+import { routeStyle } from "../style";
 
 const GoogleSignInButton = () => {
   console.log("googleCalled");

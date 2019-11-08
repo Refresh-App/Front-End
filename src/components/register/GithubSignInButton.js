@@ -1,6 +1,6 @@
 //Sign in Canvas
 import React from "react";
-import { routeStyle } from "./style";
+import { routeStyle } from "../style";
 const GithubSignInButton = () => {
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () => {

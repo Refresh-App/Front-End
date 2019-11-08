@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {routeStyle} from './style'
+import {routeStyle} from '../style'
 import axios from 'axios'
 const LocalSignUpForm = ()=> {
     const [user, setUser] = useState ({
