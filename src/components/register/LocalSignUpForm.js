@@ -31,13 +31,13 @@ const LocalSignUpForm = ()=> {
                 name="email"
                 placeholder="Email Address"
                 onChange={handleChanges}
-                /><br />
+                />
                 <input 
                 type="password"
                 name ="password"
                 placeholder="Password"
                 onChange={handleChanges}
-                /><br />
+                />
                 <button type='submit'>Sign Up</button>
             </form>
         </div>
