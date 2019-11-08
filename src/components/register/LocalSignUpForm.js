@@ -22,19 +22,20 @@ const LocalSignUpForm = ()=> {
 
     return(
         <div>
+            <p>Local Form post to /register</p>
             <form onSubmit ={handleSubmit}>
                 <input 
                 type="text"
                 name="email"
                 placeholder="Enter Your Email Address Here"
                 onChange={handleChanges}
-                />
+                /><br />
                 <input 
                 type="password"
                 name ="password"
                 placeholder="Create Your Password"
                 onChange={handleChanges}
-                />
+                /><br />
                 <button type='submit'>Sign Up</button>
             </form>
         </div>
