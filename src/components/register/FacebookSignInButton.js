@@ -1,6 +1,6 @@
 //Sign in Canvas
 import React from "react";
-
+import {routeStyle} from './style'
 
 const FacebookSignInButton = () => {
   console.log('called')
@@ -18,7 +18,7 @@ const FacebookSignInButton = () => {
 
   return (
     <>
-    <div style={{border:'1px solid #ddd',width:'100%'}}>
+    <div style={routeStyle}>
       <pre>GET /facebookAuth</pre>
       <button onClick={auth}>
         Login with Facebook
