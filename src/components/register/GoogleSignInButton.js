@@ -2,7 +2,7 @@
 import React from "react";
 
 const GoogleSignInButton = () => {
-  console.log('googleCalled')
+  console.log("googleCalled");
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () => {
     window.open(
@@ -17,13 +17,18 @@ const GoogleSignInButton = () => {
       },
       false
     );
-  }
+  };
 
   const authSuccess = userObject => {
     console.log(JSON.parse(userObject));
   };
 
-  return <button onClick={auth}>GOOGLE</button>;
+  return (
+    <>
+      <pre>GET /googleAuth</pre>
+      <button onClick={auth}>GOOGLE</button>
+    </>
+  );
 };
 
 export default GoogleSignInButton;

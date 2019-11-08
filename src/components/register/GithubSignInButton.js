@@ -18,6 +18,7 @@ const GithubSignInButton = () => {
   return (
     
     <>
+      <pre>GET /gitAuth</pre>
       <button onClick={auth}>
         Login with github
       </button>

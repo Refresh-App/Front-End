@@ -18,6 +18,7 @@ const FacebookSignInButton = () => {
 
   return (
     <>
+      <pre>GET /facebookAuth</pre>
       <button onClick={auth}>
         Login with Facebook
       </button>
