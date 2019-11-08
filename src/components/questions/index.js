@@ -1,6 +1,7 @@
 import React from 'react'
 
 const addQuestionsCanvas = () => {
+    return(
     <>
     <form>
         <input type="text"/>
@@ -10,6 +11,6 @@ const addQuestionsCanvas = () => {
 
     </form>
     </>
-}
+    )}
 
 export default addQuestionsCanvas;
