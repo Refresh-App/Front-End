@@ -30,20 +30,7 @@ const GoogleSignInButton = () => {
         <pre>GET /googleAuth</pre>
         <button onClick={auth}>GOOGLE</button>
         <p>Returns</p>
-        <pre>{
-  `displayName: "sample user",
-  emails: [{ value: "<SOME_EMAIL>@gmail.com" }],
-  id: "17465565",
-  photos: [{ value: "SOMEPHOTOLINK" }],
-  profileUrl: "https://github.com/sample-user",
-  provider: "github",
-  token:
-    "<YOURTOKEN>",
-  user: [{ email: "<SAMPLE>@gmail.com", id: 7, message: "Welcome Back" }],
-  username: "sample-user"`
-}
-          
-        </pre>
+        <pre>...</pre>
       </div>
     </>
   );

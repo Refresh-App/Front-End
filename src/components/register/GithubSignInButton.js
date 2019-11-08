@@ -29,7 +29,25 @@ const GithubSignInButton = () => {
         <pre>GET /gitAuth</pre>
         <button onClick={auth}>Login with github</button>
         <p>Sample Return</p>
-        <pre>{JSON.stringify(gitAuth)}</pre>
+        <pre>
+          {` 
+  displayName: "sample user",
+  emails: [
+    { value: "<SOME_EMAIL>@gmail.com" }
+  ],
+  id: "000000",
+  photos: [
+    { value: "SOMEPHOTOLINK" }
+  ],
+  profileUrl: "https://github.com/sample-user",
+  provider: "github",
+  token:"<YOURTOKEN>",
+  user: [
+    { email: "<SAMPLE>@gmail.com", id: 7, message: "Welcome Back" }
+  ],
+  username: "sample-user"
+  `}
+          </pre>
       </div>
     </>
   );
