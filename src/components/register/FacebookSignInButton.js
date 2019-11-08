@@ -32,21 +32,19 @@ const FacebookSignInButton = () => {
         <p>Sample Return</p>
         <pre>
           {` 
-  displayName: "sample user",
-  emails: [
-    { value: "<SOME_EMAIL>@gmail.com" }
-  ],
-  id: "000000",
-  photos: [
-    { value: "SOMEPHOTOLINK" }
-  ],
-  profileUrl: "https://github.com/sample-user",
-  provider: "github",
-  token:"<YOURTOKEN>",
-  user: [
-    { email: "<SAMPLE>@gmail.com", id: 7, message: "Welcome Back" }
-  ],
-  username: "sample-user"
+ email: "sampleEmail@gmail.com",
+ first_name: "John Smith",
+ id: "798237947",
+ last_name: "Smith",
+ name: "John Smith",
+ picture: {
+   height: 50,
+   is_silhouette: false,
+   url:
+     "https://platform-lookaside.fbsbx.com/platform/prof…=50&width=50&ext=1575832834&hash=AeTXazoZHCqZHOD3",
+   width: 50
+ },
+ token: "<YOURTOKEN>"
   `}
           </pre>
       </div>
