@@ -1,5 +1,6 @@
 //Sign in Canvas
 import React from "react";
+import { routeStyle } from "./style";
 
 const GoogleSignInButton = () => {
   console.log("googleCalled");
@@ -25,8 +26,10 @@ const GoogleSignInButton = () => {
 
   return (
     <>
-      <pre>GET /googleAuth</pre>
-      <button onClick={auth}>GOOGLE</button>
+      <div style={{ ...routeStyle }}>
+        <pre>GET /googleAuth</pre>
+        <button onClick={auth}>GOOGLE</button>
+      </div>
     </>
   );
 };
