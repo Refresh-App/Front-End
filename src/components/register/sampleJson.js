@@ -7,6 +7,6 @@ export const gitAuth = {
   provider: "github",
   token:
     "<YOURTOKEN>",
-  user: [{ email: "rjordan1352@gmail.com", id: 7, message: "Welcome Back" }],
+  user: [{ email: "<SAMPLE>@gmail.com", id: 7, message: "Welcome Back" }],
   username: "sample-user"
 };
