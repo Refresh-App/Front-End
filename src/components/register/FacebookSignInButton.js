@@ -18,10 +18,12 @@ const FacebookSignInButton = () => {
 
   return (
     <>
+    <div style={{border:'1px solid #ddd',width:'100%'}}>
       <pre>GET /facebookAuth</pre>
       <button onClick={auth}>
         Login with Facebook
       </button>
+    </div>
     </>
   );
 };
