@@ -5,7 +5,7 @@ export const gitAuth = {
   blog: "http://www.romanjoran.tk",
   company: "@lambdaschools -- Student",
   created_at: "2016-02-25T03:01:29Z",
-  email: "rjordan1352@gmail.com",
+  email: "sampleEmail@gmail.com",
   events_url: "https://api.github.com/users/John-Smith/events{/privacy}",
   followers: 30,
   followers_url: "https://api.github.com/users/John-Smith/followers",
