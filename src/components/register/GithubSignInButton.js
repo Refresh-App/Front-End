@@ -1,7 +1,7 @@
 //Sign in Canvas
 import React from "react";
 import { routeStyle } from "./style";
-import {gitAuth} from './sampleJson'
+import { gitAuth } from "./sampleJson";
 const GithubSignInButton = () => {
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () => {
@@ -29,7 +29,7 @@ const GithubSignInButton = () => {
         <pre>GET /gitAuth</pre>
         <button onClick={auth}>Login with github</button>
         <p>Sample Return</p>
-  <pre>{JSON.stringify(gitAuth)}</pre>
+        <dir>{JSON.stringify(gitAuth)}</dir>
       </div>
     </>
   );
