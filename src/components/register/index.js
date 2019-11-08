@@ -8,6 +8,7 @@ const SignInCanvas = () =>{
     console.log('herehere')
     return(
         <div className="SignInCanvas">
+             <h1>Register Here</h1>
             <GithubSignInButton/><br />
             <GoogleSignInButton/><br />
             <FacebookSignInButton/><br />
