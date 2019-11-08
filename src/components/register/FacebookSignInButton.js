@@ -18,7 +18,7 @@ const FacebookSignInButton = () => {
 
   return (
     <>
-    <div style={routeStyle}>
+    <div style={{...routeStyle}}>
       <pre>GET /facebookAuth</pre>
       <button onClick={auth}>
         Login with Facebook
