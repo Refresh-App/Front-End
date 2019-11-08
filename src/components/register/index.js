@@ -9,8 +9,7 @@ const SignInCanvas = () =>{
     console.log('herehere')
     return(
         <div className="SignInCanvas">
-             <h1>Do things Here</h1>
-             <AddQuestion /><br />
+             <h1>Register Here</h1>
             <GithubSignInButton/><br />
             <GoogleSignInButton/><br />
             <FacebookSignInButton/><br />
