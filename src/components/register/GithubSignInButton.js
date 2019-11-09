@@ -18,6 +18,7 @@ const GithubSignInButton = props => {
   
   
   const authSuccess = userObject => {
+    window.removeEventListener("message",authSuccess);
     props.setUser(JSON.parse(userObject));
   };
   return (
