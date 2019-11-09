@@ -2,7 +2,7 @@
 import React from "react";
 import { routeStyle } from "../style";
 
-const FacebookSignInButton = () => {
+const FacebookSignInButton = props => {
   //You will notice the functions auth and authSuccess in each SignInButton, Maybe abstract out.
   const auth = () => {
     window.open(
