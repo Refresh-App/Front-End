@@ -9,7 +9,7 @@ function App() {
     <>
     
   {!user ? <SignInCanvas setUser={setUser} /> : <h1>{`Currently Logged in as ${user.email}`}</h1>}
-      <QuestionsCanvas />
+      <QuestionsCanvas user={user} />
       <ProfileCanvas />
     </>
   );
