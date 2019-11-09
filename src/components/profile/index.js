@@ -10,4 +10,4 @@ const ProfileCanvas = () => {
   );
 };
 
-export default EditProfile;
+export default ProfileCanvas;

@@ -5,8 +5,8 @@ const EditProfile = () =>{
 return (
     <>
       <div style={{ ...routeStyle }}>
-        <pre>PUT /profile</pre>
-        <p>Sample PUT -> Active User Token</p>
+        <pre>PUT /profile | Requires User Token</pre>
+        <p>Sample PUT</p>
         <pre>
           {` 
 {
