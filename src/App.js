@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     
-  {!user ? <SignInCanvas setUser={setUser} /> : <h1>{`Currently Logged in as ${user.user.email}`}</h1>}
+  {!user ? <SignInCanvas setUser={setUser} /> : <h1>{`Currently Logged in as ${user.email}`}</h1>}
       <QuestionsCanvas />
       <ProfileCanvas />
     </>
