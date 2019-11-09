@@ -33,20 +33,20 @@ const GoogleSignInButton = props => {
         <p>Sample Return</p>
         <pre>
           {`{
-    email: "USEREMAIL@gmail.com",
-    email_verified: true,
-    family_name: "LNAME",
-    given_name: "FNAME",
-    locale: "en",
-    name: "LNAME FNAME",
-    picture: "https://lh3.googleusercontent.com/-ASaY0SANelo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdokkdjrZohTqzdndENxux0gLpnug/photo.jpg",
-    sub: "118064446743336738788",
-    token:"<YOURTOKEN>"
-    user:{
-      id:3,
-      email:'USEREMAIL'
-    }
-  }`}
+  email: "USEREMAIL@gmail.com",
+  email_verified: true,
+  family_name: "LNAME",
+  given_name: "FNAME",
+  locale: "en",
+  name: "LNAME FNAME",
+  picture: "https://lh3.googleusercontent.com/-ASaY0SANelo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdokkdjrZohTqzdndENxux0gLpnug/photo.jpg",
+  sub: "118064446743336738788",
+  token:"<YOURTOKEN>"
+  user:{
+    id:3,
+    email:'USEREMAIL'
+  }
+}`}
           </pre>
       </div>
     </>
