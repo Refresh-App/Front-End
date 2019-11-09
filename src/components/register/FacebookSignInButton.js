@@ -3,7 +3,6 @@ import React from "react";
 import { routeStyle } from "../style";
 
 const FacebookSignInButton = () => {
-  console.log("called");
   //You will notice the functions auth and authSuccess in each SignInButton, Maybe abstract out.
   const auth = () => {
     window.open(
@@ -21,7 +20,7 @@ const FacebookSignInButton = () => {
   const User = {}
   const authSuccess = userObject => {
     User ={...JSON.parse(userObject)}
-    console.log();
+    console.log(User)
   };
 
   return (
