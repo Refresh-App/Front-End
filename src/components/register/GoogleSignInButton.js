@@ -11,20 +11,19 @@ const GoogleSignInButton = () => {
       "Sign In With googlehub ;)",
       "width=400,height=500"
     );
+    const User ={}
     window.addEventListener(
       "message",
       response => {
-        authSuccess(response.data); // e.data hold the message
+        User.data ={...JSON.parse(response.data)} // e.data hold the message
+        console.log(User.data)
       },
       false
     );
   };
 
 
-  const authSuccess = userObject => {
-    const User ={...JSON.parse(userObject)}
-    console.log(User)
-  };
+  
 
   return (
     <>
