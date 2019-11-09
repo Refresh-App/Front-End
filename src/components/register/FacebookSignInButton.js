@@ -15,8 +15,7 @@ const FacebookSignInButton = () => {
       "message",
       response => {
         authSuccess(response.data); // e.data hold the message
-      },
-      false
+      }
     );
   };
 
