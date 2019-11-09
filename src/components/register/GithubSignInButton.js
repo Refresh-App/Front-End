@@ -28,8 +28,7 @@ const GithubSignInButton = props => {
         <button onClick={auth}>Login with github</button>
         <p>Sample Return</p>
         <pre>
-          {` 
-{
+          {`{
     avatar_url: "https://avatars2.githubusercontent.com/u/17465565?v=4",
     bio:
       "Hi everyone, I am John. I pretty much love building stuff from the ground up, or, working on existing projects; though the former is my favorite. bool",

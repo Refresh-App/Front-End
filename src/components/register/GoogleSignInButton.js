@@ -32,8 +32,7 @@ const GoogleSignInButton = props => {
         <p>Returns</p>
         <p>Sample Return</p>
         <pre>
-          {` 
-  {
+          {`{
     email: "USEREMAIL@gmail.com",
     email_verified: true,
     family_name: "LNAME",
@@ -47,8 +46,7 @@ const GoogleSignInButton = props => {
       id:3,
       email:'USEREMAIL'
     }
-  }
-  `}
+  }`}
           </pre>
       </div>
     </>
