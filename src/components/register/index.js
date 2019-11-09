@@ -6,8 +6,9 @@ import FacebookSignInButton from './FacebookSignInButton'
 import LocalSignUpForm from './LocalSignUpForm'
 
 const SignInCanvas = () =>{
-    console.log('herehere')
-    const [user,setUser] = useState({})
+    const [user,setUser] = useState()
+
+    user && console.log(user)
     return(
         <div className="SignInCanvas">
              <h1>Register Here</h1>

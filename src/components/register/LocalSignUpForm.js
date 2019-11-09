@@ -18,7 +18,7 @@ const LocalSignUpForm = props => {
     const handleSubmit = e => {
         e.preventDefault();
         axios.post('https://apidevnow.com/register',user)
-        .then(res => props.setUser({...res.data}))
+        .then(res => props.setUser(res.data))
     };
 
     return(

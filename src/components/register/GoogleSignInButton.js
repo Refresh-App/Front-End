@@ -20,7 +20,7 @@ const GoogleSignInButton = props => {
   };
 
   const authSuccess = userObject => {
-    props.setUser({...JSON.parse(userObject)});
+    props.setUser(JSON.parse(userObject));
   };
 
   return (
