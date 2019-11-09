@@ -8,7 +8,7 @@ import LocalSignUpForm from './LocalSignUpForm'
 const SignInCanvas = () =>{
     const [user,setUser] = useState()
 
-    user && console.log(user)
+    user && console.log(user) && window.removeEventListener("message");
     return(
         <div className="SignInCanvas">
              <h1>Register Here</h1>
