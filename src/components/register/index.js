@@ -5,17 +5,15 @@ import GoogleSignInButton from './GoogleSignInButton'
 import FacebookSignInButton from './FacebookSignInButton'
 import LocalSignUpForm from './LocalSignUpForm'
 
-const SignInCanvas = () =>{
-    const [user,setUser] = useState()
-
-    user && console.log(user) 
+const SignInCanvas = props =>{
+   
     return(
         <div className="SignInCanvas">
              <h1>Register Here</h1>
-            <GithubSignInButton setUser={setUser}/><br />
-            <GoogleSignInButton setUser={setUser}/><br />
-            <FacebookSignInButton setUser={setUser}/><br />
-            <LocalSignUpForm setUser={setUser}/>
+            <GithubSignInButton setUser={props.setUser}/><br />
+            <GoogleSignInButton setUser={props.setUser}/><br />
+            <FacebookSignInButton setUser={props.setUser}/><br />
+            <LocalSignUpForm setUser={props.setUser}/>
         </div>
     );
 }
