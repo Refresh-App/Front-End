@@ -23,6 +23,7 @@ const FacebookSignInButton = props => {
   return (
     <>
       <div style={{ ...routeStyle }}>
+        <div>
         <pre>GET /facebookAuth</pre>
         <button onClick={auth}>Login with Facebook</button>
         <p>Sample Return</p>
@@ -43,6 +44,7 @@ const FacebookSignInButton = props => {
   token: "<YOURTOKEN>"
 }`}
         </pre>
+        </div>
       </div>
     </>
   );

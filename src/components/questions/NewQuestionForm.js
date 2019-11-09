@@ -1,17 +1,31 @@
 import React from "react";
 import { routeStyle } from "../style";
 const NewQuestionForm = props => {
+  console.log("props", props);
   return (
     <div style={{ ...routeStyle }}>
-    <p>Add a Question</p>
-      <form>
-        <input type="text" placeholder="Object Key" disabled={!props.user && 'disable'}/>
-        <input type="text" placeholder="Question" disabled={!props.user && 'disable'}/>
+      <div>
+        <p>Add a Question</p>
+        <form>
+          <input
+            type="text"
+            placeholder="Object Key"
+            disabled={!props.user && "disable"}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Question"
+            disabled={!props.user && "disable"}
+          />
+          <br />
+          <br />
 
-        <button>Submit</button>
-      </form>
+          <button>Submit</button>
+        </form>
+      </div>
     </div>
   );
 };
 
-export default NewQuestionForm
+export default NewQuestionForm;

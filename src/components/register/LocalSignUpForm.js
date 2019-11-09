@@ -23,6 +23,7 @@ const LocalSignUpForm = props => {
 
     return(
         <div style={{ ...routeStyle }}>
+            <div>
             <p>Local Form </p>
             <pre>POST /register</pre>
             <form onSubmit ={handleSubmit}>
@@ -40,6 +41,7 @@ const LocalSignUpForm = props => {
                 />
                 <button type='submit'>Sign Up</button>
             </form>
+            </div>
         </div>
     );
 };

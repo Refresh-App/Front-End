@@ -1,10 +1,10 @@
 import React from 'react'
 import NewQuestionForm from './NewQuestionForm'
-const addQuestionsCanvas = () => {
+const addQuestionsCanvas = props => {
     return(
     <>
     <h1>Questions</h1>
-    <NewQuestionForm />
+    <NewQuestionForm user={props.user}/>
     </>
     )}
 

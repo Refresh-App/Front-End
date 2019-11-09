@@ -13,22 +13,24 @@ const GithubSignInButton = props => {
       "message",
       response => {
         authSuccess(response.data); // e.data hold the message
-      },false);
+      },
+      false
+    );
   };
-  
-  
+
   const authSuccess = userObject => {
-    window.removeEventListener("message",authSuccess);
+    window.removeEventListener("message", authSuccess);
     props.setUser(JSON.parse(userObject));
   };
   return (
     <>
       <div style={{ ...routeStyle }}>
-        <pre>GET /gitAuth</pre>
-        <button onClick={auth}>Login with github</button>
-        <p>Sample Return</p>
-        <pre>
-          {`{
+        <div>
+          <pre>GET /gitAuth</pre>
+          <button onClick={auth}>Login with github</button>
+          <p>Sample Return</p>
+          <pre>
+            {`{
   avatar_url: "https://avatars2.githubusercontent.com/u/17465565?v=4",
   bio:
     "Hi everyone, I am John. I pretty much love building stuff from the ground up, or, working on existing projects; though the former is my favorite. bool",
@@ -66,6 +68,7 @@ const GithubSignInButton = props => {
   url: "https://api.github.com/users/John-Smith"
 }`}
           </pre>
+        </div>
       </div>
     </>
   );

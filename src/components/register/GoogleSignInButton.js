@@ -27,6 +27,7 @@ const GoogleSignInButton = props => {
   return (
     <>
       <div style={{ ...routeStyle }}>
+        <div>
         <pre>GET /googleAuth</pre>
         <button onClick={auth}>GOOGLE</button>
         <p>Returns</p>
@@ -48,6 +49,7 @@ const GoogleSignInButton = props => {
   }
 }`}
           </pre>
+          </div>
       </div>
     </>
   );
