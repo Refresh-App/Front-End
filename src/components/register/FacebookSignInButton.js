@@ -18,9 +18,10 @@ const FacebookSignInButton = () => {
       }
     );
   };
-
+  const User = {}
   const authSuccess = userObject => {
-    console.log(JSON.parse(userObject));
+    User ={...JSON.parse(userObject)}
+    console.log();
   };
 
   return (
