@@ -2,8 +2,7 @@
 import React from "react";
 import { routeStyle } from "../style";
 
-const GoogleSignInButton = () => {
-  console.log("googleCalled");
+const GoogleSignInButton = props => {
   //Auth and Auth Success can be thought of like Fire and Air
   const auth = () => {
     window.open(
@@ -11,19 +10,18 @@ const GoogleSignInButton = () => {
       "Sign In With googlehub ;)",
       "width=400,height=500"
     );
-    const User ={}
     window.addEventListener(
       "message",
       response => {
-        User.data ={...JSON.parse(response.data)} // e.data hold the message
-        console.log(User.data)
+        authSuccess(response.data); // e.data hold the message
       },
       false
     );
   };
 
-
-  
+  const authSuccess = userObject => {
+    props.setUser({...JSON.parse(userObject)});
+  };
 
   return (
     <>

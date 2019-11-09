@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {routeStyle} from '../style'
 import axios from 'axios'
-const LocalSignUpForm = ()=> {
+const LocalSignUpForm = props => {
     const [user, setUser] = useState ({
         email: "",
         password: ""
@@ -18,7 +18,7 @@ const LocalSignUpForm = ()=> {
     const handleSubmit = e => {
         e.preventDefault();
         axios.post('https://apidevnow.com/register',user)
-        .then(res => console.log(res.data))
+        .then(res => props.setUser({...res.data}))
     };
 
     return(

@@ -16,8 +16,7 @@ const FacebookSignInButton = () => {
   };
 
   const authSuccess = userObject => {
-    const User = { ...JSON.parse(userObject) };
-    console.log(User);
+    props.setUser({...JSON.parse(userObject)});
   };
 
   return (
