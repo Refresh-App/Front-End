@@ -10,17 +10,14 @@ const FacebookSignInButton = () => {
       "Sign In With Facebook ;)",
       "width=400,height=500"
     );
-    window.addEventListener(
-      "message",
-      response => {
-        authSuccess(response.data); // e.data hold the message
-      }
-    );
+    window.addEventListener("message", response => {
+      authSuccess(response.data); // e.data hold the message
+    });
   };
-  const User = {}
+
   const authSuccess = userObject => {
-    User ={...JSON.parse(userObject)}
-    console.log(User)
+    const User = { ...JSON.parse(userObject) };
+    console.log(User);
   };
 
   return (
@@ -45,7 +42,7 @@ const FacebookSignInButton = () => {
  },
  token: "<YOURTOKEN>"
   `}
-          </pre>
+        </pre>
       </div>
     </>
   );
