@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+e94c5f8f026a207afc950e6e26c1da52312965a0 refs/remotes/origin/atoms
+2a2a90729702681a7ef2555e0678198c5f670eb3 refs/remotes/origin/create-account
+15c052acfb980c1f8cbe30bf2b467e87acad32d6 refs/remotes/origin/dashboard
+88db8acee18bf65ad7d9086597cf7e501a7d5fc5 refs/remotes/origin/gauge_w_hooks
+e886824d176c19e2e3f159f5d35623acd8d30423 refs/remotes/origin/initialize-fe
+25f3cd4700cbd498c45bc65e5e595bee5e930941 refs/remotes/origin/master
+24bfe84f1664d298a86fd75432390457b3020804 refs/remotes/origin/mission-add
+7e4025aa527f1f191cbf06146cabafa84cc9ee35 refs/remotes/origin/mission-complete
+b0178ffa6b277219c041e9f540921d0514b9a856 refs/remotes/origin/mobile-global-menu
+7893958482337b67850a1398426a79b97a62cef1 refs/remotes/origin/newSliders
+163e33f919ba40ace2df715d6b0e6ebe04f8e795 refs/remotes/origin/pomodoro-clock
+982440b18ae2a48ecefa808c0c8e335a8509c4b4 refs/remotes/origin/profile-view-gc
+8048a6ed1a76de6dac41e99ae0eaeef4b878cc65 refs/remotes/origin/questionare
+c406aa8fa41303a6f59abce13cfe9f04fc0d67e7 refs/remotes/origin/sliders
+f90ad4d4ab8ac3bbb556f89d8673b60394ba6bd8 refs/remotes/origin/staging

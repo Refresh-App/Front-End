@@ -1,0 +1,58 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Lambda-School-Labs/refresh-fe.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "Parallel-Test"]
+	remote = origin
+	merge = refs/heads/Parallel-Test
+[branch "atoms"]
+	remote = origin
+	merge = refs/heads/atoms
+[branch "create-account"]
+	remote = origin
+	merge = refs/heads/create-account
+[branch "dashboard"]
+	remote = origin
+	merge = refs/heads/dashboard
+[branch "gauge_w_hooks"]
+	remote = origin
+	merge = refs/heads/gauge_w_hooks
+[branch "initialize-fe"]
+	remote = origin
+	merge = refs/heads/initialize-fe
+[branch "mission-add"]
+	remote = origin
+	merge = refs/heads/mission-add
+[branch "mission-complete"]
+	remote = origin
+	merge = refs/heads/mission-complete
+[branch "mobile-global-menu"]
+	remote = origin
+	merge = refs/heads/mobile-global-menu
+[branch "newSliders"]
+	remote = origin
+	merge = refs/heads/newSliders
+[branch "pomodoro-clock"]
+	remote = origin
+	merge = refs/heads/pomodoro-clock
+[branch "profile-view-gc"]
+	remote = origin
+	merge = refs/heads/profile-view-gc
+[branch "questionare"]
+	remote = origin
+	merge = refs/heads/questionare
+[branch "sliders"]
+	remote = origin
+	merge = refs/heads/sliders
+[branch "staging"]
+	remote = origin
+	merge = refs/heads/staging
