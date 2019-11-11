@@ -9,3 +9,7 @@ f90ad4d4ab8ac3bbb556f89d8673b60394ba6bd8 4b23d992696d077a26fd26a31e7d6007a956734
 4b23d992696d077a26fd26a31e7d6007a956734a e8bcb465ef97cb5e1359e7fa2915e7d4c5cc2dfa roman-jordan <rjordan1352@gmail.com> 1573502532 -0800	commit: Updated Git ignore
 e8bcb465ef97cb5e1359e7fa2915e7d4c5cc2dfa 68ca460ac3b1b930997c2c1e6ed621148b14282d roman-jordan <rjordan1352@gmail.com> 1573502606 -0800	commit: Updated Git ignore
 68ca460ac3b1b930997c2c1e6ed621148b14282d 1525b51a7964bcdf3811d43656b2d402f64c80e7 roman-jordan <rjordan1352@gmail.com> 1573502872 -0800	commit: Persisting Token
+1525b51a7964bcdf3811d43656b2d402f64c80e7 0ec789cb8c5412ae3933186bd7543f4432ee0fb9 roman-jordan <rjordan1352@gmail.com> 1573503306 -0800	commit: Persisting Token to Dashboard
+0ec789cb8c5412ae3933186bd7543f4432ee0fb9 f90ad4d4ab8ac3bbb556f89d8673b60394ba6bd8 roman-jordan <rjordan1352@gmail.com> 1573505533 -0800	checkout: moving from auth to staging
+f90ad4d4ab8ac3bbb556f89d8673b60394ba6bd8 4a52cc2b86de0113b3d1882cb47150d2ef6652b9 roman-jordan <rjordan1352@gmail.com> 1573505539 -0800	pull: Fast-forward
+4a52cc2b86de0113b3d1882cb47150d2ef6652b9 5efc2a345d32efb32b87d19a51bdbb975cdd0e6d roman-jordan <rjordan1352@gmail.com> 1573506152 -0800	pull: Fast-forward
