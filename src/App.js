@@ -1,17 +1,21 @@
-import React,{useState} from 'react';
-import SignInCanvas from './components/register/';
-import QuestionsCanvas from './components/questions/'
-import ProfileCanvas from './components/profile/'
-function App() {
-  const [user,setUser] = useState()
-  user && console.log(user) 
+// IMPORTS
+// react
+import React from 'react';
+import { Route } from 'react-router-dom';
+import Landing from './views/onboarding/Landing';
+import CreateAccount from "./views/onboarding/CreateAccount";
+
+
+// COMPONENT
+const App = props => {
   return (
-    <>
-  {!user ? <SignInCanvas setUser={setUser} /> : <h1>{`Currently Logged in as ${user.email}`}</h1>}
-      <QuestionsCanvas user={user} />
-      <ProfileCanvas />
-    </>
+    <React.Fragment>
+      <Landing {...props}/>
+    </React.Fragment>
   );
 }
+
+// STYLED COMPONENTS
+// todo
 
 export default App;
