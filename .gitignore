@@ -4,16 +4,19 @@
 /node_modules
 /.pnp
 .pnp.js
-.production
-.staging
 
-yarn.lock
 # testing
 /coverage
 
 # production
 /build
 
+#SERVERS
+.staging
+.production
+
+
+package-lock.json
 # misc
 .DS_Store
 .env.local
