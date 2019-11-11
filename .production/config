@@ -56,3 +56,6 @@
 [branch "staging"]
 	remote = origin
 	merge = refs/heads/staging
+[branch "auth"]
+	remote = origin
+	merge = refs/heads/auth
