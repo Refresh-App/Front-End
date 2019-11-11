@@ -19,7 +19,7 @@ const Landing = (props) => {
         <OnBoardContainer>
             <Logo src={onboardlogo} />
             <FlexHolder>
-                <Refresh>Refresing</Refresh>
+                <Refresh>Refresh</Refresh>
                 <OnboardTxt>Made for students,<br /> by students.</OnboardTxt>
                 <br />
                 <OnboardTxt>Because success starts with the <br /> body in mind.</OnboardTxt>
