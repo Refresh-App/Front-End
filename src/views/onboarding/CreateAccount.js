@@ -30,7 +30,7 @@ const CreateAccount = (props) => {
                 </FlexHolder>
                 <Header>Create <br /> Account</Header>
                 <FlexHolder>
-                <FBButton name="facebookAuth" onClick={auth}>Sign up with Facebook <img src={fblogo} /> </FBButton>
+                <FBButton name="facebookAuth" onClick={()=>alert('hello')}>Sign up with Facebook <img src={fblogo} /> </FBButton>
                 <Button name="googleAuth" onClick={auth}>Sign up with Google <img src={googlelogo} /></Button>
                 </FlexHolder>
                 <OnboardTxt>OR</OnboardTxt>
