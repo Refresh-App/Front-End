@@ -16,9 +16,12 @@ const CreateAccount = (props) => {
           authSuccess(response.data); // e.data hold the message
         },false);
       };
+
+      
     
       const authSuccess = userObject => {
-        setUser({...JSON.parse(userObject)});
+        props.history.push('/dashboard');
+       
       };
       user && console.log('Logged in as:',user)
     return(
