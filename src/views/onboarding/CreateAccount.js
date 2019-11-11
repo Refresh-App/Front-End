@@ -31,7 +31,7 @@ const CreateAccount = (props) => {
                 <Header>Create <br /> Account</Header>
                 <FlexHolder>
                 <FBButton name="facebookAuth" onClick={auth}>Sign up with Facebook <img src={fblogo} /> </FBButton>
-                <Button name="gootleAuth" onClick={auth}>Sign up with Google <img src={googlelogo} /></Button>
+                <Button name="googleAuth" onClick={auth}>Sign up with Google <img src={googlelogo} /></Button>
                 </FlexHolder>
                 <OnboardTxt>OR</OnboardTxt>
                 <FlexHolder>
