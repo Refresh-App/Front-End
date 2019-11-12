@@ -59,3 +59,6 @@
 [branch "auth"]
 	remote = origin
 	merge = refs/heads/auth
+[branch "hot-fix-google-sign-in"]
+	remote = origin
+	merge = refs/heads/hot-fix-google-sign-in
