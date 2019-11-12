@@ -1,5 +1,4 @@
 import React from "react";
-import {Route} from 'react-router-dom'
 import styled from "styled-components";
 import fblogo from "../../images/facebook-icon.png";
 import googlelogo from "../../images/flat-color-icons_google.png";
