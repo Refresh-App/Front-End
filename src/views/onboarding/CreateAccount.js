@@ -24,6 +24,7 @@ const CreateAccount = (props) => {
           "width=400,height=500"
         );
         window.addEventListener("message", response => {
+          console.log('resoponse',response)
           authSuccess(response.data); // e.data hold the message
         },false);
       };
