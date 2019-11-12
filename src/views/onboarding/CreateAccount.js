@@ -6,6 +6,7 @@ import googlelogo from "../../images/flat-color-icons_google.png";
 import emailogo from "../../images/email.png";
 import cubes from "../../images/two_cubes.png";
 import GoogleSignIn from "./GoogleSignInButton";
+import DashBoard from '../dashboard/Dashboard'
 const CreateAccount = (props) => {
     const routeToHome = e => {
         e.preventDefault();
