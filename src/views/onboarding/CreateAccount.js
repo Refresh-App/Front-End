@@ -29,7 +29,7 @@ const CreateAccount = (props) => {
       };
 
       const authSuccess = userObject => {
-        console.log(userObject)
+    
         userObject = JSON.parse(userObject)
         console.log(userObject)
         localStorage.setItem('token', userObject.token);
