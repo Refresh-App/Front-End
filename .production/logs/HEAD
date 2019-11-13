@@ -36,3 +36,16 @@ fd5bba62bf92b53d6c8bc0a58c4672378dbc0784 98336fe6bb9741f6e81a2dfb024c8367e9a075b
 4a4430e58e43c9889ff6e7b90e3e685f1ce69e6d 1570b4fd73e3cd14d873e5a0e45d7920ca938a2b roman-jordan <rjordan1352@gmail.com> 1573586670 -0800	checkout: moving from hot-fix-google-sign-in to staging
 1570b4fd73e3cd14d873e5a0e45d7920ca938a2b de84704a76f05241f09be82272d4ba0d070309e4 roman-jordan <rjordan1352@gmail.com> 1573586771 -0800	commit: Sync To Master
 de84704a76f05241f09be82272d4ba0d070309e4 c790af41d631a16ee551e9e7cddff90b29478855 roman-jordan <rjordan1352@gmail.com> 1573587162 -0800	commit: Fixed Sign in google
+c790af41d631a16ee551e9e7cddff90b29478855 c790af41d631a16ee551e9e7cddff90b29478855 roman-jordan <rjordan1352@gmail.com> 1573668682 -0800	checkout: moving from staging to service-worker
+c790af41d631a16ee551e9e7cddff90b29478855 e9f78ad7c36d2d13445c504d53ca0c118b1a1efd roman-jordan <rjordan1352@gmail.com> 1573668730 -0800	commit: Cleaned up repo
+e9f78ad7c36d2d13445c504d53ca0c118b1a1efd 0defc8fc214104acfe7c5c3027a5075b957a4c42 roman-jordan <rjordan1352@gmail.com> 1573668752 -0800	commit: Cleaned up repo
+0defc8fc214104acfe7c5c3027a5075b957a4c42 c790af41d631a16ee551e9e7cddff90b29478855 roman-jordan <rjordan1352@gmail.com> 1573670561 -0800	checkout: moving from service-worker to staging
+c790af41d631a16ee551e9e7cddff90b29478855 e4485fac54f136c9ff99131da792f676c10229ea roman-jordan <rjordan1352@gmail.com> 1573670569 -0800	pull: Fast-forward
+e4485fac54f136c9ff99131da792f676c10229ea dccb09a3e78b4db10420a1ba786e34d7ec7a9029 roman-jordan <rjordan1352@gmail.com> 1573670891 -0800	pull: Fast-forward
+dccb09a3e78b4db10420a1ba786e34d7ec7a9029 f52a28e967a076ca19811bb1680f8a73ffe954f1 roman-jordan <rjordan1352@gmail.com> 1573670963 -0800	commit: removed history
+f52a28e967a076ca19811bb1680f8a73ffe954f1 950a08266c86a5e3bdea86c218508be4270a72b4 roman-jordan <rjordan1352@gmail.com> 1573671026 -0800	commit: added .history to .gitignore
+950a08266c86a5e3bdea86c218508be4270a72b4 aac66d535cca5ccf8fcb8be8985b28b96a5d5831 roman-jordan <rjordan1352@gmail.com> 1573671533 -0800	pull: Fast-forward
+aac66d535cca5ccf8fcb8be8985b28b96a5d5831 4d5992acfc6eaf7ea0d1c458ab7b0a578e6c10c3 roman-jordan <rjordan1352@gmail.com> 1573671545 -0800	checkout: moving from staging to master
+4d5992acfc6eaf7ea0d1c458ab7b0a578e6c10c3 78ea38bc9f7ee47e8ca6ebd31acaee8146d295ed roman-jordan <rjordan1352@gmail.com> 1573671552 -0800	pull: Fast-forward
+78ea38bc9f7ee47e8ca6ebd31acaee8146d295ed aac66d535cca5ccf8fcb8be8985b28b96a5d5831 roman-jordan <rjordan1352@gmail.com> 1573671562 -0800	checkout: moving from master to staging
+aac66d535cca5ccf8fcb8be8985b28b96a5d5831 78ea38bc9f7ee47e8ca6ebd31acaee8146d295ed roman-jordan <rjordan1352@gmail.com> 1573671580 -0800	merge master: Fast-forward

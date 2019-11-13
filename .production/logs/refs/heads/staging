@@ -9,3 +9,9 @@ fd5bba62bf92b53d6c8bc0a58c4672378dbc0784 98336fe6bb9741f6e81a2dfb024c8367e9a075b
 4d5992acfc6eaf7ea0d1c458ab7b0a578e6c10c3 1570b4fd73e3cd14d873e5a0e45d7920ca938a2b roman-jordan <rjordan1352@gmail.com> 1573579610 -0800	pull: Merge made by the 'recursive' strategy.
 1570b4fd73e3cd14d873e5a0e45d7920ca938a2b de84704a76f05241f09be82272d4ba0d070309e4 roman-jordan <rjordan1352@gmail.com> 1573586771 -0800	commit: Sync To Master
 de84704a76f05241f09be82272d4ba0d070309e4 c790af41d631a16ee551e9e7cddff90b29478855 roman-jordan <rjordan1352@gmail.com> 1573587162 -0800	commit: Fixed Sign in google
+c790af41d631a16ee551e9e7cddff90b29478855 e4485fac54f136c9ff99131da792f676c10229ea roman-jordan <rjordan1352@gmail.com> 1573670569 -0800	pull: Fast-forward
+e4485fac54f136c9ff99131da792f676c10229ea dccb09a3e78b4db10420a1ba786e34d7ec7a9029 roman-jordan <rjordan1352@gmail.com> 1573670891 -0800	pull: Fast-forward
+dccb09a3e78b4db10420a1ba786e34d7ec7a9029 f52a28e967a076ca19811bb1680f8a73ffe954f1 roman-jordan <rjordan1352@gmail.com> 1573670963 -0800	commit: removed history
+f52a28e967a076ca19811bb1680f8a73ffe954f1 950a08266c86a5e3bdea86c218508be4270a72b4 roman-jordan <rjordan1352@gmail.com> 1573671026 -0800	commit: added .history to .gitignore
+950a08266c86a5e3bdea86c218508be4270a72b4 aac66d535cca5ccf8fcb8be8985b28b96a5d5831 roman-jordan <rjordan1352@gmail.com> 1573671533 -0800	pull: Fast-forward
+aac66d535cca5ccf8fcb8be8985b28b96a5d5831 78ea38bc9f7ee47e8ca6ebd31acaee8146d295ed roman-jordan <rjordan1352@gmail.com> 1573671580 -0800	merge master: Fast-forward
