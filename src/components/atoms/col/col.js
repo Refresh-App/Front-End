@@ -24,16 +24,18 @@ const Col = ({ ...props }) => {
     color,
     fontSize,
     margin,
+    marginBottom,
+    marginTop,
     padding,
     justifyContent,
     flex,
-    flexFlow,
+    // flexFlow,
     textAlign
   } = props;
 
   return (
     <StyledCol
-      className="baseCol"
+      className="base-col"
       display={display}
       width={width}
       height={height}
@@ -50,6 +52,8 @@ const Col = ({ ...props }) => {
       color={color}
       fontSize={fontSize}
       margin={margin}
+      marginBottom={marginBottom}
+      marginTop={marginTop}
       padding={padding}
       justifyContent={justifyContent}
       flex={flex}
@@ -81,6 +85,8 @@ const StyledCol = styled.div.attrs(props => ({
   justifyContent: props.justifyContent,
   height: props.height,
   margin: props.margin,
+  marginBottom: props.marginBottom,
+  marginTop: props.marginTop,
   padding: props.padding,
   width: props.width,
   href: props.href,
@@ -96,19 +102,21 @@ const StyledCol = styled.div.attrs(props => ({
   border-right: ${props => props.borderRight};
   border-bottom: ${props => props.borderBottom};
   border-bottom-left-radius: ${props =>
-    props.borderRadiusBottomLeft ? props.borderRadiusBottomLeft : "5px"};
+    props.borderRadiusBottomLeft ? props.borderRadiusBottomLeft : 0};
   border-top-left-radius: ${props =>
-    props.borderRadiusTopLeft ? props.borderRadiusTopLeft : "5px"};
+    props.borderRadiusTopLeft ? props.borderRadiusTopLeft : 0};
   border-top-right-radius: ${props =>
-    props.borderRadiusTopRight ? props.borderRadiusTopRight : "5px"};
+    props.borderRadiusTopRight ? props.borderRadiusTopRight : 0};
   border-bottom-right-radius: ${props =>
-    props.borderRadiusBottomRight ? props.borderRadiusBottomRight : "5px"};
+    props.borderRadiusBottomRight ? props.borderRadiusBottomRight : 0};
   background-color: ${props =>
     props.backgroundColor ? props.backgroundColor : "transparent"};
   color: ${props => (props.color ? props.color : Colors.font.primary)};
   outline: none;
   cursor: auto;
   margin: ${props => (props.margin ? `${props.margin}rem` : "1rem")};
+  margin-bottom: ${props => (props.margin ? `${props.margin}rem` : "1rem")};
+  margin-top: ${props => (props.margin ? `${props.margin}rem` : "1rem")};
   padding: ${props => (props.padding ? `${props.margin}rem` : "1rem")};
   display: flex;
   /* flex-flow: row wrap; */

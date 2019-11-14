@@ -1,14 +1,18 @@
-e347cca13f5752db6a0148b15a0fd58d865d16c7		branch 'staging' of https://github.com/Lambda-School-Labs/refresh-fe
+ad4194c08d0c3624c7c955d72827befdbbf72849		branch 'staging' of https://github.com/Lambda-School-Labs/refresh-fe
+5658979d3a44bcbfcf931c01c879029a2b806394	not-for-merge	branch 'atoms' of https://github.com/Lambda-School-Labs/refresh-fe
+9f765765563b514db67a7134321e748844610c7c	not-for-merge	branch 'backent-intigration' of https://github.com/Lambda-School-Labs/refresh-fe
+d49f10f6e8a1f6da5dc9f0326cb1798f16e70115	not-for-merge	branch 'congrats' of https://github.com/Lambda-School-Labs/refresh-fe
 85dab3490e296bed5891d81c42586f47a4ca41a3	not-for-merge	branch 'create-account' of https://github.com/Lambda-School-Labs/refresh-fe
-818756779b30aa645f5ec4a93a760c3c7c5118c4	not-for-merge	branch 'gauge_w_hooks' of https://github.com/Lambda-School-Labs/refresh-fe
+e5d97c1a7be3c9e0a1b4994851dd3f52606004b6	not-for-merge	branch 'dashboard-v1.5' of https://github.com/Lambda-School-Labs/refresh-fe
+6885b4b5d20e5804238a99294bb8e4b2d3925a9b	not-for-merge	branch 'gauge_w_hooks' of https://github.com/Lambda-School-Labs/refresh-fe
 c3311abbc38ef5eb418d1adc4b50de9068c56032	not-for-merge	branch 'hotfix-leaderboard-menu' of https://github.com/Lambda-School-Labs/refresh-fe
 644d1f09d4efb5d7c92a348e25885a310881fc6e	not-for-merge	branch 'leaderboard' of https://github.com/Lambda-School-Labs/refresh-fe
-78ea38bc9f7ee47e8ca6ebd31acaee8146d295ed	not-for-merge	branch 'master' of https://github.com/Lambda-School-Labs/refresh-fe
+f4f5b6ad1d57711afa0957c544f29d70dd434685	not-for-merge	branch 'master' of https://github.com/Lambda-School-Labs/refresh-fe
 24bfe84f1664d298a86fd75432390457b3020804	not-for-merge	branch 'mission-add' of https://github.com/Lambda-School-Labs/refresh-fe
 f8bb06d60deb4273236d3472969f03efabbb6413	not-for-merge	branch 'mission-complete' of https://github.com/Lambda-School-Labs/refresh-fe
 7893958482337b67850a1398426a79b97a62cef1	not-for-merge	branch 'newSliders' of https://github.com/Lambda-School-Labs/refresh-fe
-1a41c36cca67c5ef888f5f42437f971df9e2d0e5	not-for-merge	branch 'pomodoro-clock' of https://github.com/Lambda-School-Labs/refresh-fe
-3d9abc192923742807a7317701d632abe323111a	not-for-merge	branch 'profile-view-gc' of https://github.com/Lambda-School-Labs/refresh-fe
+d80dde6602db110c5ff96b07fc09606cc006d230	not-for-merge	branch 'pomodoro-clock' of https://github.com/Lambda-School-Labs/refresh-fe
+940ab1e55a083acf9a8b62c4a086a9304e667bd2	not-for-merge	branch 'profile-view-gc' of https://github.com/Lambda-School-Labs/refresh-fe
 8048a6ed1a76de6dac41e99ae0eaeef4b878cc65	not-for-merge	branch 'questionare' of https://github.com/Lambda-School-Labs/refresh-fe
 3bfff330334d00b9bc60b18fa0d40e690b7558da	not-for-merge	branch 'sandbox' of https://github.com/Lambda-School-Labs/refresh-fe
 c406aa8fa41303a6f59abce13cfe9f04fc0d67e7	not-for-merge	branch 'sliders' of https://github.com/Lambda-School-Labs/refresh-fe
