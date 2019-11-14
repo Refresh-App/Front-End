@@ -12,6 +12,8 @@ import Gauge from "./components/molecules/gauge/gauge";
 import Atoms from "./views/componentTesting/componentTesting";
 import StepStart from "./views/onboarding/steps/StepStart";
 import Login from "./views/onboarding/Login";
+import Leaderboard from './views/leaderboard/Leaderboard';
+import Sandbox from './views/sandbox/Sandbox';
 
 // COMPONENT
 const App = props => {
@@ -22,10 +24,12 @@ const App = props => {
       <Route exact path="/" component={Landing} />
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/mission-complete" component={MissionComplete} />
+      <Route path='/leaderboard' component={Leaderboard} />
       <Route path="/gauge" component={Gauge} />
       <Route path="/signup" component={CreateAccount} />
       <Route path="/login" component={Login} />
       <Route path="/atoms" component={Atoms} />
+      <Route path='/sandbox' component={Sandbox} />
     </React.Fragment>
     
   );

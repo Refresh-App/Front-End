@@ -32,7 +32,7 @@ const Login = (props) => {
       };
 
       const authSuccess = userObject => {
-        userObject = JSON.parse(userObject)
+        //userObject = JSON.parse(userObject)
         console.log(userObject)
         localStorage.setItem('token', userObject.token);
         {userObject.newUser ? props.history.push('/firstlogin') : props.history.push('/dashboard'); }

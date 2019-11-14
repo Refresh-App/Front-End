@@ -65,3 +65,6 @@
 [branch "service-worker"]
 	remote = origin
 	merge = refs/heads/service-worker
+[branch "backent-intigration"]
+	remote = origin
+	merge = refs/heads/backent-intigration
